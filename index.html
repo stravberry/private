@@ -11,6 +11,7 @@
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <script src="https://kit.fontawesome.com/893ea400a9.js" crossorigin="anonymous"></script>
 </head>
@@ -30,6 +31,7 @@
                     <a class="nav-link active" href="#home">Home</a>
                     <a class="nav-link" href="#aboutus">O nas</a>
                     <a class="nav-link" href="#whywe">Dlaczego my?</a>
+                    <a class="nav-link" href="#prices">Ceny</a>
                     <a class="nav-link" href="#contact">kontakt</a>
                 </div>
             </div>
@@ -45,7 +47,7 @@
                 <a href="#aboutus" type="button" class="btn btn-outline-light">poznaj nas</a>
             </div>
 
-            <a href="#aboutus"><i class="fa-solid fa-chevron-down"></i></a>
+            <a href="#aboutus"><i class="fa-solid fa-chevron-down bounce-top"></i></a>
 
         </div>
     </header>
@@ -122,11 +124,96 @@
                 </div>
             </div>
         </section>
+
+        <section id="whywe" class="whywe bg-light py-5">
+            <h2>Dlaczego my?</h2>
+            <div class="underline"></div>
+
+            <div class="container">
+                <div class="whywe-wrap row justify-content-center">
+
+                    <div class="col-md-6 col-xl-4">
+                        <div class="whywe-text text-center">
+                            <h3 class=""><span class="yellow-text"><strong>My </strong></span>to <span
+                                    class="yellow-text"><strong>Twoje</strong></span> rozwiązanie!</h3>
+                            <div class="whywe-finaltext m-2 text-center">
+                                <p>Za pomocą dzierżawy naszych kserokopiarek lub drukarek jesteśmy w stanie:</p>
+                            </div>
+                            <ul class="whywe-list m-3 pb-3 pt-4">
+                                <li>
+                                    <p>
+                                        Zaoszczędzić Twój czas i pieniądze, bo zajmie się tym ktoś inny
+                                        niż ty - a delegowanie ma mnóstwo korzyści!
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>Zapewnić pełną opiekę nad pomocą w użytkowaniu</p>
+                                </li>
+                                <li>
+                                    <p>Dać dostęp do szybkiego serwisu w razie potrzeby</p>
+                                </li>
+                                <li>
+                                    <p>Na bierząco uzupełniać braki w materiałach eksploatacyjnych</p>
+                                </li>
+                                <li>
+                                    <p>Dać pełny komfort użytkowania</p>
+                                </li>
+                            </ul>
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+
+        </section>
+
+        <section id="contact" class="contact py-5">
+            <h2>Kontakt</h2>
+            <div class="underline"></div>
+
+            <div class="container">
+
+                <div class="row text-center contact-us">
+
+                    <div class="col-sm-6 col-lg-4 contact-item order-1">
+
+                        <h3>Kacper</h3>
+                        <p><i class="fa-solid fa-envelope"></i> Kacper@agserwis.com.pl</p>
+                        <p><i class="fa-solid fa-phone"></i> 698 785 712</p>
+                    </div>
+                    <div class="col-lg-4 order-0 order-lg-1 contact-item">
+                        <h3>Social Media</h3>
+                        <div class="social-media">
+                            <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 contact-item order-1">
+
+                        <h3>Jakub</h3>
+                        <p><i class="fa-solid fa-envelope"></i> Jakub@agserwis.com.pl</p>
+                        <p><i class="fa-solid fa-phone"></i> 518 225 469</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-shadow"></div>
+        </section>
+
+        <footer class="bg-dark text-light py-4 text-center">
+            <p class="mb-0">&copy; 2022 | <span class="yellow-text">AG</span> Serwis site by Wiktoria Skopek</p>
+        </footer>
+
+
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
         </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
     <script src="./js/script.js"></script>
 </body>
