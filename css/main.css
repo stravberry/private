@@ -18,9 +18,9 @@
 @-webkit-keyframes bounce-top {
   0% {
     -webkit-transform: translateY(-45px);
-    transform: translateY(-45px);
+            transform: translateY(-45px);
     -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
     opacity: 1;
   }
   24% {
@@ -28,39 +28,39 @@
   }
   40% {
     -webkit-transform: translateY(-24px);
-    transform: translateY(-24px);
+            transform: translateY(-24px);
     -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
   }
   65% {
     -webkit-transform: translateY(-12px);
-    transform: translateY(-12px);
+            transform: translateY(-12px);
     -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
   }
   25%,
   55%,
   75%,
   87% {
     -webkit-transform: translateY(0px);
-    transform: translateY(0px);
+            transform: translateY(0px);
     -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
   }
   100% {
     -webkit-transform: translateY(0px);
-    transform: translateY(0px);
+            transform: translateY(0px);
     -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
     opacity: 1;
   }
 }
 @keyframes bounce-top {
   0% {
     -webkit-transform: translateY(-45px);
-    transform: translateY(-45px);
+            transform: translateY(-45px);
     -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
     opacity: 1;
   }
   24% {
@@ -68,30 +68,30 @@
   }
   40% {
     -webkit-transform: translateY(-24px);
-    transform: translateY(-24px);
+            transform: translateY(-24px);
     -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
   }
   65% {
     -webkit-transform: translateY(-12px);
-    transform: translateY(-12px);
+            transform: translateY(-12px);
     -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
   }
   25%,
   55%,
   75%,
   87% {
     -webkit-transform: translateY(0px);
-    transform: translateY(0px);
+            transform: translateY(0px);
     -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
   }
   100% {
     -webkit-transform: translateY(0px);
-    transform: translateY(0px);
+            transform: translateY(0px);
     -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
     opacity: 1;
   }
 }
@@ -220,13 +220,16 @@ header .btn-outline-light {
 }
 
 header .fa-chevron-down {
-  position: absolute;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  bottom: 20px;
-  font-size: 30px;
   color: #fff;
+}
+
+header .iconfont {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  text-align: center;
+  font-size: 30px;
 }
 
 .aboutus i {
@@ -241,11 +244,6 @@ header .fa-chevron-down {
 
 .aboutus .aboutus-card-text {
   font-size: 14px;
-}
-
-.aboutus .aboutus-hover {
-  -webkit-transition: color 0.3s;
-  transition: color 0.3s;
 }
 
 .aboutus .aboutus-hover:hover {
@@ -287,6 +285,59 @@ header .fa-chevron-down {
   height: 400px;
 }
 
+.price-box {
+  margin: 20px;
+}
+
+.prices .price-box {
+  margin: 20px 10px;
+  padding: 30px;
+  background-color: #fff;
+  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+          box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+
+.prices .price-box h3 {
+  color: #ffde59;
+  text-transform: uppercase;
+}
+
+.prices .price-box span {
+  font-weight: bold;
+}
+
+.prices .price-box i {
+  padding: 0 5px;
+  font-size: 24px;
+}
+
+.prices .price-box button {
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+
+.prices .price-box .price-tag {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.prices .price-box:hover {
+  -webkit-transform: scale(1.06);
+          transform: scale(1.06);
+}
+
+.prices .price-info {
+  margin-top: 30px;
+}
+
+.prices .price-info a {
+  text-decoration: none;
+}
+
 .contact {
   position: relative;
   background-image: url(../img/agserwis3.jpg);
@@ -310,7 +361,7 @@ header .fa-chevron-down {
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(34, 22, 0, 0.8);
+  background-color: rgba(36, 33, 0, 0.8);
   z-index: -5;
 }
 
@@ -376,6 +427,9 @@ header .fa-chevron-down {
     background-size: cover;
     color: #ddd;
     z-index: 0;
+  }
+  .prices .price-info {
+    font-size: 18px;
   }
 }
 
