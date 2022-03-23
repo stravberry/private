@@ -125,11 +125,15 @@ h2 {
   width: 60px;
   height: 4px;
   border-radius: 60px;
-  background-color: #ffde59;
+  background-color: #FFD000;
 }
 
 .yellow-text {
-  color: #ffde59;
+  color: #FFD000;
+}
+
+.yellow-dark-text {
+  color: #4E4622;
 }
 
 .shadow-bg {
@@ -149,7 +153,7 @@ nav i {
 }
 
 nav a:hover {
-  color: #ffde59;
+  color: #FFD000;
 }
 
 nav .fa-bars {
@@ -161,7 +165,7 @@ nav .navbar-brand {
 }
 
 nav .active {
-  color: #ffde59;
+  color: #FFD000;
 }
 
 header {
@@ -215,10 +219,6 @@ header .hero-text {
   z-index: 5;
 }
 
-header .btn-outline-light {
-  text-transform: uppercase;
-}
-
 header .fa-chevron-down {
   color: #fff;
 }
@@ -232,9 +232,33 @@ header .iconfont {
   font-size: 30px;
 }
 
+header .header-picture {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 10px;
+  font-size: 200px;
+  text-align: center;
+  z-index: 5;
+}
+
 .aboutus i {
   margin-top: 20px;
   font-size: 30px;
+}
+
+.aboutus .underline {
+  background-color: #121212;
 }
 
 .aboutus .aboutus-card-title {
@@ -246,8 +270,14 @@ header .iconfont {
   font-size: 14px;
 }
 
+.aboutus .aboutus-hover {
+  border-radius: 60px;
+  -webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
+          box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
+}
+
 .aboutus .aboutus-hover:hover {
-  color: #ffde59;
+  color: #4E4622;
 }
 
 .aboutus-hero {
@@ -280,6 +310,10 @@ header .iconfont {
   font-size: 24px;
 }
 
+.aboutus-hero .carousel-item {
+  height: 600px;
+}
+
 .whywe .whywe-wrap .hero-whywe {
   width: 500px;
   height: 400px;
@@ -293,6 +327,7 @@ header .iconfont {
   margin: 20px 10px;
   padding: 30px;
   background-color: #fff;
+  border-radius: 60px;
   -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
           box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
   -webkit-transition: -webkit-transform 0.3s;
@@ -302,7 +337,7 @@ header .iconfont {
 }
 
 .prices .price-box h3 {
-  color: #ffde59;
+  color: #4E4622;
   text-transform: uppercase;
 }
 
@@ -316,6 +351,7 @@ header .iconfont {
 }
 
 .prices .price-box button {
+  border-radius: 60px;
   padding: 10px 20px;
   text-transform: uppercase;
 }
@@ -336,6 +372,13 @@ header .iconfont {
 
 .prices .price-info a {
   text-decoration: none;
+  font-weight: bold;
+  color: #4E4622;
+}
+
+.prices .price-wrap {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .contact {
