@@ -219,6 +219,20 @@ header .hero-text {
   z-index: 5;
 }
 
+header .hero-text .fa-bolt {
+  color: #ddd;
+  -webkit-transition: color 0.5s, -webkit-transform 0.3s;
+  transition: color 0.5s, -webkit-transform 0.3s;
+  transition: transform 0.3s, color 0.5s;
+  transition: transform 0.3s, color 0.5s, -webkit-transform 0.3s;
+}
+
+header .hero-text .fa-bolt:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  color: #FFD000;
+}
+
 header .fa-chevron-down {
   color: #fff;
 }
@@ -230,6 +244,10 @@ header .iconfont {
   bottom: 20px;
   text-align: center;
   font-size: 30px;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
 }
 
 header .header-picture {
@@ -262,7 +280,7 @@ header .header-picture {
 }
 
 .aboutus .aboutus-card-title {
-  font-size: 18px;
+  font-size: 26px;
   text-transform: uppercase;
 }
 
@@ -271,6 +289,8 @@ header .header-picture {
 }
 
 .aboutus .aboutus-hover {
+  margin: 20px 10px;
+  padding: 30px;
   border-radius: 60px;
   -webkit-transition: -webkit-transform linear 0.3s;
   transition: -webkit-transform linear 0.3s;
@@ -444,6 +464,10 @@ header .header-picture {
 
 .contact .contact-us .contact-item .social-media a:hover {
   color: #ddd;
+}
+
+footer {
+  border-top: 25px white solid;
 }
 
 @media (min-width: 375px) {
