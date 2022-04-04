@@ -125,15 +125,15 @@ h2 {
   width: 60px;
   height: 4px;
   border-radius: 60px;
-  background-color: #FFD000;
+  background-color: #0066ff;
 }
 
 .yellow-text {
-  color: #FFD000;
+  color: #0066ff;
 }
 
 .yellow-dark-text {
-  color: #4E4622;
+  color: #190075;
 }
 
 .shadow-bg {
@@ -153,7 +153,7 @@ nav i {
 }
 
 nav a:hover {
-  color: #FFD000;
+  color: #0066ff;
 }
 
 nav .fa-bars {
@@ -165,7 +165,7 @@ nav .navbar-brand {
 }
 
 nav .active {
-  color: #FFD000;
+  color: #0066ff;
 }
 
 header {
@@ -230,7 +230,7 @@ header .hero-text .fa-bolt {
 header .hero-text .fa-bolt:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
-  color: #FFD000;
+  color: #0066ff;
 }
 
 header .fa-chevron-down {
@@ -307,7 +307,7 @@ header .header-picture {
 
 .aboutus-hero {
   position: relative;
-  background-image: url(../img/agserwis4small.jpg);
+  background-image: url(../img/depositphotos_4939208-stock-photo-financial-charts-and-graphs.jpg);
   background-position: center;
   background-size: cover;
   color: #ddd;
@@ -348,7 +348,7 @@ header .header-picture {
   margin: 20px;
 }
 
-.prices .price-box {
+.personal .personal-box {
   margin: 20px 10px;
   padding: 30px;
   background-color: #fff;
@@ -361,54 +361,64 @@ header .header-picture {
   transition: transform 0.3s, -webkit-transform 0.3s;
 }
 
-.prices .price-box h3 {
-  color: #4E4622;
+.personal .personal-box h3 {
+  color: #190075;
   text-transform: uppercase;
 }
 
-.prices .price-box span {
+.personal .personal-box span {
   font-weight: bold;
 }
 
-.prices .price-box i {
+.personal .personal-box i {
   padding: 0 5px;
   font-size: 24px;
 }
 
-.prices .price-box button {
+.personal .personal-box button {
   border-radius: 60px;
   padding: 10px 20px;
   text-transform: uppercase;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
 }
 
-.prices .price-box .price-tag {
+.personal .personal-box button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.personal .personal-box .personal-tag {
   font-size: 30px;
   font-weight: bold;
 }
 
-.prices .price-box:hover {
+.personal .personal-box:hover {
   -webkit-transform: scale(1.06);
           transform: scale(1.06);
 }
 
-.prices .price-info {
+.personal .personal-info {
   margin-top: 30px;
+  color: white;
 }
 
-.prices .price-info a {
+.personal .personal-info a {
   text-decoration: none;
   font-weight: bold;
-  color: #4E4622;
+  color: #fff;
 }
 
-.prices .price-wrap {
+.personal .personal-wrap {
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
 
 .contact {
   position: relative;
-  background-image: url(../img/agserwis3.jpg);
+  background-image: url(../img/pens-gcaf7aa8e9_1280.jpg);
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
@@ -494,7 +504,7 @@ footer {
   }
   .aboutus-hero {
     position: relative;
-    background-image: url(../img/agserwis4small.jpg);
+    background-image: url(../img/The-Missions-Of-An-Accountant-In-A-Company-And-An-Accounting-Office-scaled.jpeg);
     background-position: center;
     background-size: cover;
     color: #ddd;
