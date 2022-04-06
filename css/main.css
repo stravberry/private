@@ -125,19 +125,35 @@ h2 {
   width: 60px;
   height: 4px;
   border-radius: 60px;
-  background-color: #0066ff;
+  background-color: #b30015;
 }
 
-.yellow-text {
-  color: #0066ff;
+.main-text {
+  color: #b30015;
 }
 
-.yellow-dark-text {
-  color: #190075;
+.main-light {
+  color: #ff3149;
+}
+
+.main-dark-text {
+  color: #b30015;
+}
+
+.bg-main {
+  background-color: #b30015;
+}
+
+.bg-main-light {
+  background-color: #ff3149;
+}
+
+.white {
+  color: #fff;
 }
 
 .shadow-bg {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 nav {
@@ -153,7 +169,7 @@ nav i {
 }
 
 nav a:hover {
-  color: #0066ff;
+  color: #b30015;
 }
 
 nav .fa-bars {
@@ -165,7 +181,7 @@ nav .navbar-brand {
 }
 
 nav .active {
-  color: #0066ff;
+  color: #ff3149;
 }
 
 header {
@@ -195,7 +211,7 @@ header .hero-shadow {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.7);
   z-index: -10;
 }
 
@@ -230,7 +246,7 @@ header .hero-text .fa-bolt {
 header .hero-text .fa-bolt:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
-  color: #0066ff;
+  color: #b30015;
 }
 
 header .fa-chevron-down {
@@ -362,7 +378,7 @@ header .header-picture {
 }
 
 .personal .personal-box h3 {
-  color: #190075;
+  color: #b30015;
   text-transform: uppercase;
 }
 
@@ -439,7 +455,7 @@ header .header-picture {
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(36, 33, 0, 0.8);
+  background-color: rgba(91, 0, 11, 0.9);
   z-index: -5;
 }
 
